@@ -11,6 +11,15 @@
   "repository_visibility": "public",
   "anonymous_original_tree_http_status": 200,
   "literal_incognito_browser_check": "미확인",
+  "verified_publication": {
+    "commit": "a2c98bdb4e8f8e87a6a22eda273df31992b60c79",
+    "report_url": "https://github.com/kjhoping903/m5d2/blob/a2c98bdb4e8f8e87a6a22eda273df31992b60c79/docs/report.md",
+    "tree_url": "https://github.com/kjhoping903/m5d2/tree/a2c98bdb4e8f8e87a6a22eda273df31992b60c79",
+    "anonymous_report_http_status": 200,
+    "anonymous_tree_http_status": 200,
+    "redirect_to_login": false,
+    "method": "curl without credentials or cookies"
+  },
   "session_a": {"completion": "미확인", "original_log_available": false},
   "session_b": {"completion": "미확인", "independence": "미확인", "original_log_available": false},
   "required_fixed_check_count": 10,

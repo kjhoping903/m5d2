@@ -4,6 +4,8 @@
 
 점검일: 2026-10-13 (Asia/Seoul). 대상: [원본 commit](https://github.com/kjhoping903/m5d2/tree/3efb9b87f298380ac0f364f49b8975b283a494a4). 이 commit은 저장소 최초 commit이며, A 모델 시작 commit이라는 근거는 없다.
 
+최초 점검 문서를 공개한 commit `a2c98bdb4e8f8e87a6a22eda273df31992b60c79`의 [보고서 URL](https://github.com/kjhoping903/m5d2/blob/a2c98bdb4e8f8e87a6a22eda273df31992b60c79/docs/report.md)과 [전체 파일 tree URL](https://github.com/kjhoping903/m5d2/tree/a2c98bdb4e8f8e87a6a22eda273df31992b60c79)은 쿠키·인증 없는 curl 요청으로 HTTP 200과 원래 URL 유지가 확인됐다. 실제 시크릿 브라우저 검증은 미확인이다. tree에는 README와 점검 문서만 있으며 과제 구현 소스는 없다.
+
 ## 실제 완료 여부
 
 로컬 Git 기록과 GitHub 파일 목록을 대조했다. 원본 추적 파일은 README.md(10바이트) 하나, commit은 first commit 하나다. 원격 브랜치는 main 하나이고 태그는 없었다. handover.md·검사 로그·Session A/B 로그·구현 소스는 원본에 없다. 따라서 동일 조건 검사 여부, 세션 완료와 독립성 모두 미확인이다.
@@ -52,8 +54,8 @@ Get-Content -Raw m5d2/evidence/comparison.json
 | 두 세션 동일 검사 조건 | 미확인 | 비교할 환경·명령·상한 기록 없음 |
 | handover·로그·커밋 대조 | FAIL | 커밋은 확인했으나 원본 handover·로그 없음 |
 | 공개 저장소 여부 | PASS | GitHub metadata: public; 원본 tree 무인증 HTTP 200 |
-| 공개 결과물 URL | 미확인 | 작성 문서 공개 후 URL 검증 필요 |
-| full commit 해시 포함 소스 URL | 미확인 | 문서 공개 후 commit URL 검증 필요; 원본에 구현 소스 없음 |
+| 공개 결과물 URL | PASS | 공개 보고서 URL 무인증 HTTP 200; 내용은 미완료 점검 보고서 |
+| full commit 해시 포함 소스 URL 형식 | PASS | 40자리 소문자 해시 tree URL 무인증 HTTP 200 |
 | 전체 구현 소스 포함 | FAIL | 원본에는 README.md만 존재 |
 | 실제 시크릿 창 접근 | 미확인 | 무인증 HTTP 확인과 별개로 실제 시크릿 창 검증 기록 없음 |
 | 재현·통과·실패 확인 내용 | FAIL | 고정 검사 명령·결과 부재 |
@@ -65,4 +67,4 @@ Get-Content -Raw m5d2/evidence/comparison.json
 | 업로드 허용 형식 | 미확인 | 허용 형식 목록 미제공 |
 | 공식 T05 평가 기준별 충족 | 미확인 | 공식 기준 원문 미제공 |
 
-공개 URL·크기 검증의 최신 결과는 제출 시 최종 답변에 별도로 기록한다. 이 문서의 상태를 10개 검사 통과 또는 T05 과제 완료로 해석하지 않는다.
+최신 문서 commit의 공개 URL·크기 검증 결과는 제출 시 최종 답변에 별도로 기록한다. 이 문서의 상태를 10개 검사 통과 또는 T05 과제 완료로 해석하지 않는다.
